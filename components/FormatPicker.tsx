@@ -129,7 +129,7 @@ export default function FormatPicker({
             </div>
           </div>
           <div className="format-help">
-            <span /> Available formats use engines on this computer. Dimmed
+            <span /> Available formats use engines on the host computer. Dimmed
             formats need another engine.
           </div>
         </div>

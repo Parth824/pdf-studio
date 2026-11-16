@@ -8,10 +8,21 @@ this app's Next.js API routes, Python backend, or native conversion programs.
 Run `start-local.cmd` from the project directory. The app listens on
 `http://127.0.0.1:3000`. This address works only on this computer.
 
-A public URL requires a configured HTTPS reverse proxy or tunnel to this
-running app. The computer must remain awake and connected. Select the tunnel
-provider and access settings before exposing the conversion API. Do not
-publish Windows binaries, licenses, temporary uploads, or `.env` files to GitHub.
+After the local app is running, double-click `share-public.cmd` to create a
+temporary public HTTPS URL through Cloudflare Tunnel. It downloads a pinned,
+checksum-verified tunnel client into the ignored `.runtime` folder. The URL is
+printed in the terminal and saved in `.runtime/tunnel.json`. Anyone with the URL
+can use the app. Traffic passes through Cloudflare; conversion processing stays
+on this computer. Keep the computer awake and connected.
+
+Use `stop-public.cmd` to stop public access while leaving the local app running.
+Starting a new tunnel generates a different URL. Quick Tunnels are for testing,
+not permanent hosting, and have no uptime guarantee. A permanent address needs
+a configured named tunnel and domain. See the
+[Cloudflare Quick Tunnel documentation](https://developers.cloudflare.com/tunnel/get-started/quick-tunnels/).
+
+Do not publish Windows binaries, licenses, temporary uploads, or `.env` files
+to GitHub.
 
 ## Host on a server
 

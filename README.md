@@ -61,6 +61,10 @@ Open **http://localhost:3000**. The setup script creates `.venv`, installs the P
 
 After setup, you can also double-click `start-local.cmd`. It starts the production build if one exists, or the development server otherwise.
 
+To share the running app through a temporary public HTTPS URL, use `share-public.cmd`.
+Conversions stay on the host computer; Cloudflare relays the connection. Use
+`stop-public.cmd` to stop sharing. See [deployment instructions](DEPLOYMENT.md).
+
 ```powershell
 $env:PYTHON_PATH = 'C:\Path\To\Python\python.exe'
 npm.cmd run setup:engine

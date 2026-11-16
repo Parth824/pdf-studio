@@ -346,20 +346,20 @@ export default function Converter({
                 {from && sourceCategory === "Archive" ? (
                   <>
                     Convert your archives between ZIP, RAR, TAR.GZ, 7Z and more.
-                    <br className="desktop-break" /> Your files stay on this
-                    computer, from upload to download.
+                    <br className="desktop-break" /> Files are processed on the
+                    host computer and removed after conversion.
                   </>
                 ) : (
                   <>
                     One workspace for your documents, images, audio, video,
                     archives,
                     <br className="desktop-break" /> and more. Pick a format.
-                    Let your local engines do the rest.
+                    Let the host's conversion engines do the rest.
                   </>
                 )}
               </p>
               <div className="local-badge">
-                <LockKeyhole size={13} /> Local processing. No external uploads.
+                <LockKeyhole size={13} /> Host processing. No conversion APIs.
               </div>
             </div>
             <div className="format-pair">
@@ -655,7 +655,7 @@ export default function Converter({
                 )}
                 <div className="convert-actions">
                   <span>
-                    <ShieldCheck size={15} /> Processed on your computer
+                    <ShieldCheck size={15} /> Processed on the host computer
                   </span>
                   {done > 0 && (
                     <button
@@ -724,8 +724,8 @@ export default function Converter({
               <span className="convert-kicker">FIND YOUR FORMAT</span>
               <h2>A format for every kind of work.</h2>
               <p>
-                Explore the catalogue. Bright formats are available on this
-                computer.
+                Explore the catalogue. Bright formats are available on the
+                host computer.
               </p>
             </div>
             <label className="catalogue-search">

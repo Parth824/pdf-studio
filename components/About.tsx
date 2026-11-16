@@ -28,6 +28,11 @@ export default function About() {
           recent activity metadata are stored in this browser only.
         </p>
         <p>
+          When you visit through a public link, uploads travel to the computer
+          hosting this app. HTTPS tunnel providers relay that connection; the
+          conversion programs run on the host computer.
+        </p>
+        <p>
           File conversions use local engines only, with no cloud fallback.
           Translation can use a LibreTranslate service running on this same
           computer; remote translation endpoints are rejected. No analytics,
