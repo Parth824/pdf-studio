@@ -1,0 +1,9 @@
+node_modules
+.next
+.venv
+.runtime
+.git
+.env*
+test-output
+*.tsbuildinfo
+__pycache__

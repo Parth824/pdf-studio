@@ -1,0 +1,13 @@
+PyMuPDF==1.27.2.3
+pypdf==6.12.0
+python-docx==1.2.0
+python-pptx==1.0.2
+openpyxl==3.1.5
+Pillow>=11.0,<13
+beautifulsoup4>=4.12,<5
+cryptography>=44,<49
+py7zr>=1.0,<2
+rarfile>=4.2,<5
+fonttools[woff]>=4.60,<5
+ezdxf>=1.4,<2
+pillow-heif>=1.1,<2

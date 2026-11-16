@@ -1,0 +1,29 @@
+{
+  "name": "pdf-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build --webpack",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test:engine": "node scripts/test-engine.mjs",
+    "test:converter": "node scripts/test-converter.mjs",
+    "test:browser": "node scripts/smoke.mjs",
+    "setup:engine": "node scripts/setup-engine.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "16.4.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "prettier": "^3.10.1",
+    "typescript": "^5.7.0"
+  }
+}

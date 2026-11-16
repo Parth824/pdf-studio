@@ -1,0 +1,13 @@
+{
+  "Archive": ["7z","ace","alz","arc","arj","bz","bz2","cab","cpio","deb","dmg","eml","gz","img","iso","jar","lha","lz","lzma","lzo","rar","rpm","rz","tar","tar.7z","tar.bz","tar.bz2","tar.gz","tar.lzo","tar.xz","tar.z","tbz","tbz2","tgz","tz","tzo","xz","z","zip"],
+  "Audio": ["aac","ac3","aif","aiff","amr","au","caf","dss","flac","m4a","m4b","m4r","mid","midi","mmf","mp3","oga","ogg","opus","voc","wav","wma"],
+  "CAD": ["dwf","dwg","dxf"],
+  "Document": ["abw","djvu","doc","docm","docx","dot","dotx","html","hwp","hwpx","lwp","md","odt","pages","pdf","rst","rtf","sdw","tex","txt","wpd","wps","zabw"],
+  "Ebook": ["azw","azw3","azw4","cb7","cbr","cbz","cbc","chm","epub","fb2","htm","htmlz","lit","lrf","mobi","oeb","pdb","pml","prc","rb","snb","tcr"],
+  "Font": ["eot","otf","ttf","woff","woff2"],
+  "Image": ["3fr","arw","avif","bmp","cr2","cr3","crw","dcr","dng","eps","erf","gif","heic","heif","icns","ico","jfif","jpe","jpeg","jpg","jps","k25","kdc","mos","mrw","nef","nrw","odd","orf","pef","png","ppm","psd","raf","raw","rw2","rwl","sr2","srf","srw","tif","tiff","webp","x3f","xcf"],
+  "Presentation": ["dps","key","odp","pot","potx","pps","ppsx","ppt","pptm","pptx","sda"],
+  "Spreadsheet": ["csv","ets","numbers","ods","sdc","tsv","xls","xlsm","xlsx"],
+  "Vector": ["ai","cdr","cgm","emf","eps","pdf","ps","sk","sk1","svg","svgz","vsd","wmf"],
+  "Video": ["3g2","3gp","3gpp","asf","avi","cavs","dv","dvr","f4v","flv","gif","m2ts","m4v","mkv","mod","mov","mp4","mpeg","mpg","mts","mxf","ogv","rm","rmvb","swf","ts","vob","webm","wmv","wtv"]
+}
